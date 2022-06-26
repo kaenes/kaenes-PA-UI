@@ -1,0 +1,82 @@
+
+
+.App {
+  text-align: center;
+  background: linear-gradient(180deg, #000000 0%, #01000E 100%);
+  aspect-ratio: 16/9;
+  border: 1px solid blue;
+}
+
+.splash-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.splash-screen .effects--frame {
+position: absolute;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+margin: 0;
+width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: auto;
+  z-index: 7;
+}
+
+.splash-screen .button {
+  position: absolute;
+  transform-origin: (50%,50%);
+  height: auto;
+  left: 50%;
+  top: 50%;
+}
+
+.splash-screen .button.green {
+  width: 120px;
+  transform: translate(120%, 45%) rotate(-25deg);
+  z-index: 9;
+
+}
+
+.splash-screen .button.red {
+  width: 160px;
+  transform: translate(150%, 15%) rotate(25deg);
+  z-index: 8;
+}
+
+.splash-screen .effects--light {
+  position: absolute;
+  z-index: 1;
+}
+.splash-screen .effects--light.left {
+  top: 0;
+  left: 0;
+}
+.splash-screen .effects--light.right {
+  top: 0;
+  right: 0;
+}
+
+.splash-screen .background--grid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  z-index: 2;
+}
+
+.splash-screen .background--grid:nth-child(n+2) {
+  opacity: 0.6;
+}
