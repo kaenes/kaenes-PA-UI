@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import SplashScreen from './components/SplashScreen';
+import StartScreen from './components/StartScreen';
 
 
 
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       
     <SplashScreen />
+    {/* <StartScreen /> */}
       
     </div>
   );

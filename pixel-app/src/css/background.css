@@ -1,0 +1,45 @@
+.background .effects--frame {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);    
+    width: 95%;
+    }
+
+    .background .effects--light {
+        position: absolute;
+        z-index: 1;
+      }
+      .background .effects--light.left {
+        top: 0;
+        left: 0;
+      }
+      .background .effects--light.right {
+        top: 0;
+        right: 0;
+      }
+
+      .frame-corner {
+          position: absolute;
+          z-index: 1
+      }
+
+      .frame-corner.left-top {
+          left: 0;
+          top:0;
+      }
+      .frame-corner.right-top {
+        right: 0;
+        top:0;
+    }
+    .frame-corner.left-bottom {
+        left: 0;
+        bottom:0;
+    }
+    .frame-corner.right-bottom {
+        right: 0;
+        bottom:0;
+    }
+    
+      
+     
